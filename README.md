@@ -29,7 +29,8 @@ Métrica Sintáctica: Validadores nativos en Python empleando análisis de árbo
 ## Aislamiento de Entornos
 Configuración modular limpia mediante paquetes locales (__init__.py)
 
-1. Instalación y uso
+## Instalación y uso
+1. Clonar el repositorio
 git clone https://github.com/HarryAlanCQ/rag_evaluation
 cd rag_evaluation
 
