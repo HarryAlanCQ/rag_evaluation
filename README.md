@@ -29,20 +29,20 @@ Métrica Sintáctica: Validadores nativos en Python empleando análisis de árbo
 ## Aislamiento de Entornos
 Configuración modular limpia mediante paquetes locales (__init__.py)
 
-## Instalación y uso
+1. Instalación y uso
 git clone https://github.com/HarryAlanCQ/rag_evaluation
 cd rag_evaluation
 
-## Instalar dependencias
+2. Instalar dependencias
 pip install -r requirements.txt
 
-## Configurar variables de entorno
+3. Configurar variables de entorno
 Crea un archivo .env en la raíz del proyecto con tus credenciales
 
 OPENAI_API_KEY=tuapikey
 ANTHROPIC_API_KEY=tuapikey
 
-## Ejecutar pruebas
+4. Ejecutar pruebas
 
 python main.py
 
