@@ -1,0 +1,14 @@
+[
+    {
+        "tarea": "Eres un programador senior experto en Python. Genera un JSON con configuraciones de red de un servidor Linux.",
+        "formato": "json"
+    },
+    {
+        "tarea": "Eres un programador experto en Python, genera código en Python que liste archivos de un directorio.",
+        "formato": "python"
+    },
+    {
+        "tarea": "Eres un programador en Python, genera una expresión regular para validar direcciones IPv4.",
+        "formato": "regex"
+    }
+]
