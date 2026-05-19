@@ -2,7 +2,7 @@
 
 Un sistema modular de Recuperación Aumentada por Generación (RAG) enfocado en arquitectura de AWS, desarrollado desde cero (sin frameworks como LangChain o LlamaIndex) e integrado con un pipeline de evaluación automatizado utilizando Claude (Anthropic) como juez semántico junto con validadores sintácticos de código.
 
-## 🚀 Arquitectura del Proyecto
+## Arquitectura del Proyecto
 
 El repositorio está estructurado de forma modular separando el motor RAG de la lógica de evaluación:
 
@@ -33,4 +33,18 @@ Configuración modular limpia mediante paquetes locales (__init__.py)
 git clone https://github.com/HarryAlanCQ/rag_evaluation
 cd rag_evaluation
 
-##
+## Instalar dependencias
+pip install -r requirements.txt
+
+## Configurar variables de entorno
+Crea un archivo .env en la raíz del proyecto con tus credenciales
+
+OPENAI_API_KEY=tuapikey
+ANTHROPIC_API_KEY=tuapikey
+
+## Ejecutar pruebas
+
+python main.py
+
+Al finalizar la ejecución, el sistema imprimirá las métricas generales en consola y exportará un reporte detallado con el veredicto del juez en resultado_evaluacion.json.
+
